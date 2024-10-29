@@ -124,7 +124,7 @@ export function Menu() {
 
                     <Divider />
                     <DonateItem />
-                    <SourceItem />
+                
                   </motion.div>
                 </DropdownMenu.Content>
               </DropdownMenu.Portal>

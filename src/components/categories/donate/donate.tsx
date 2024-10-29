@@ -15,12 +15,12 @@ export function Donate() {
       </div>
 
       <div className={styles.title}>Support Me</div>
-      <p className={styles.desc}>Help me keep Murmurs ad-free.</p>
+      <p className={styles.desc}>Buy me a coffee!</p>
       <SpecialButton
         className={styles.button}
-        href="https://buymeacoffee.com/remvze"
+        href="https://buymeacoffee.com/goDanielgo"
       >
-        Donate Today
+        Buy me a coffee Today
       </SpecialButton>
     </div>
   );
