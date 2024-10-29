@@ -15,7 +15,7 @@ export function Donate() {
       </div>
 
       <div className={styles.title}>Support Me</div>
-      <p className={styles.desc}>Help me keep Moodist ad-free.</p>
+      <p className={styles.desc}>Help me keep Murmurs ad-free.</p>
       <SpecialButton
         className={styles.button}
         href="https://buymeacoffee.com/remvze"
