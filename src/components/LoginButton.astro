@@ -1,0 +1,8 @@
+---
+// src/components/LoginButton.astro
+import { useAuth0 } from '@auth0/auth0-react';
+
+const { loginWithRedirect } = useAuth0();
+---
+
+<button onClick={loginWithRedirect}>Log In</button>

@@ -1,7 +1,7 @@
 ---
 import { count } from '@/lib/sounds';
-
 import '@/styles/global.css';
+import Auth0ProviderWrapper from '@/components/Auth0ProviderWrapper.astro'; // Import the Auth0 provider
 
 interface Props {
   description?: string;
@@ -37,6 +37,8 @@ const description =
     <meta content="summary_large_image" name="twitter:card" />
   </head>
   <body>
+    <!-- <Auth0ProviderWrapper> -->
     <slot />
+    <!--  </Auth0ProviderWrapper> -->
   </body>
 </html>

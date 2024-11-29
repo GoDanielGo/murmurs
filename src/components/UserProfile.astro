@@ -1,0 +1,14 @@
+---
+// src/components/UserProfile.astro
+import { useAuth0 } from '@auth0/auth0-react';
+
+const { user, isAuthenticated } = useAuth0();
+---
+
+{isAuthenticated && (
+  <div>
+    <h2>User Profile</h2>
+    <p>Name: {user.name}</p>
+    <p>Email: {user.email}</p>
+  </div>
+)}

@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for moodist on 2024-10-29T15:26:56+08:00
+# fly.toml app configuration file generated for murmurs on 2024-11-01T21:56:49+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'moodist'
+app = 'murmurs'
 primary_region = 'sin'
 
 [build]
